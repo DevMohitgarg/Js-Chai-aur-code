@@ -19,3 +19,15 @@ const gameName = new String('hitesh-hc-com')
 const newString = gameName.substring(0,4)
 console.log(newString);
 
+
+const newStringOne = "   hitesh    "
+console.log(newStringOne);
+console.log(newStringOne.trim());
+
+const url = "https://hitesh.com/hitesh%20choudhary"
+
+console.log(url.replace('%20', '-'))
+
+console.log(url.includes('sundar'))
+
+console.log(gameName.split('-'));
